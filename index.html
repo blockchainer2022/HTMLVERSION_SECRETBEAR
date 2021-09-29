@@ -230,7 +230,7 @@
 		<div class="section-heading">
 		    <h2>Traits</h2>
 	    </div>
-		<div class="row flex-row">
+		<div class="row flex-row justify-center">
 			<div class="col-md-4 col-sm-4">
 				<div class="traits-list  wow fadeInLeft">
 					<ul>
@@ -248,7 +248,7 @@
 					<button class="total-traits"><span>383</span> Total Traits</button>
 				</div>
 			</div>
-			<div class="col-md-8 col-md-4">
+			<div class="col-md-8 col-md-4 d-none d-md-block">
 				<div class="traits-box wow fadeInRight">
 					<div class="bear-modal">
 						<div class="modalimg"><img src="images/bear-6.png"></div>
@@ -475,7 +475,7 @@ $(document).resize(function() {
         hour = minute * 60,
         day = hour * 24;
 
-  let birthday = "Sep 30, 2021 00:00:00",
+  let birthday = "Oct 1, 2021 17:00:00",
       countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
 
