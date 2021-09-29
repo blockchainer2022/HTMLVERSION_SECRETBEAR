@@ -361,10 +361,8 @@ button.total-traits {
   position: absolute;
   top: -65px;
   right: -111px;
-  background: url(../images/element-bg.svg);
-  background-size: cover;
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 80px;
 }
 .modal-elements span {
   width: 45px;
