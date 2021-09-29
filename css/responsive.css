@@ -1,0 +1,285 @@
+/* ==== Media Queries ===== */
+ @media (min-width:1200px) and (max-width:1600px)  {
+	 .banner-right img {
+        width: 50%;
+    }
+
+.mint-left img {
+    width: 55%;
+}
+.cards img {
+    width: 76%;
+    }
+
+ }
+ @media (min-width:992px) and (max-width:1199px) {
+ 	  
+.banner-left h1 {
+font-size: 48px;
+line-height: 55px;
+}
+
+.cards p {font-size: 24px;}
+.mapbox-1 {left: 5%;}
+.mapbox-2 {right:4%;}
+.mapbox-3 {left:0%;}
+.mapbox-4 {right: -2%;}
+
+}
+ @media (min-width:767px) and (max-width:991px) {
+
+a.navbar-brand img {height: 111px;}
+.social ul li a img {width: 35px;}
+.social {margin-left: 15px;}
+nav.navbar.navbar-default.main-navbar {margin-top: 5px;}
+ul.nav.navbar-nav.navbar-right li a {padding: 40px 15px;}
+.banner-left h1 {    font-size: 35px;width: 70%;line-height: 45px;}
+.mint-left {text-align: center;}
+.cards p {font-size: 20px;}
+section.trait-section {padding: 0;}
+.modalimg {margin-left: 35px;}
+.mapbox-1,.mapbox-2,.mapbox-3,.mapbox-4 {
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    background-repeat: no-repeat;
+    padding: 14px 27px;
+}
+.mapbox-1 {
+    left: 10%;
+    top: 7%;
+}
+.mapbox-2 {
+    right: 4%;
+    top: 29%;
+}
+.mapbox-3 {
+    left: 6%;
+    top: 55%;
+}
+.mapbox-4 {
+    right: -4%;
+    bottom: 10%;
+    top: auto;
+}
+.mapbox-inner h4 {font-size: 20px; }
+.mapbox-inner p,.mapbox-inner a {font-size: 13px;}
+
+.faq-right ul li span {
+    font-size: 16px;
+}
+.faq-right ul li img {
+    width: 100px;
+}
+.flex-row {
+    display: block;
+}
+.banner .flex-row, section.mint .flex-row{
+    display: flex;
+}
+.faq-left img {
+    width: 40%;
+    margin: 0 auto 20px;
+}
+.faq-right {
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-col {
+    margin-bottom: 25px;
+}
+img.footer-logo {
+    width: 45px;
+    float: left;
+    margin-right: 22px;
+}
+footer {margin-top: 25px;}
+section.team {
+    padding-bottom: 25px;
+}
+
+
+
+
+
+}
+
+@media (max-width:767px) {
+a.navbar-brand img {height: 111px;}
+.social ul li a img {width: 35px;}
+.social {margin-left: 15px;}
+nav.navbar.navbar-default.main-navbar {margin-top: 5px;}
+ul.nav.navbar-nav.navbar-right li a {
+    padding: 8px 15px;
+    border-bottom: 1px solid #582773;
+}
+.banner-left h1 {    font-size: 35px;width: 100%;line-height: 45px;text-align: center;}
+.mint-left {text-align: center;}
+.cards p {
+    font-size: 13px;
+    line-height: normal;
+    margin-top: 15px;
+}
+section.trait-section {padding: 0;}
+.modalimg {margin-left: 35px;}
+
+nav.navbar.navbar-default.main-navbar {
+    display: block;
+}
+button.navbar-toggle {
+    position: absolute;
+    right: 0;
+}
+div#myNavbar {
+    width: 100%;
+}
+button.navbar-toggle {
+    top: 18px;
+}
+
+.banner-right img,.mint-left img {
+    width: 150px;
+    margin: 50px auto;
+    display: block;
+}
+div#countdown {
+    text-align: center;
+}
+
+.min-box ul li {
+    margin-bottom: 24px;
+    line-height: normal;
+}
+.min-box ul li:before {
+   top: 10px;
+}
+.three-cards {
+    margin-top: 10px;
+}
+.social {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+ 
+ 
+
+.faq-right ul li span {
+    font-size: 16px;
+}
+.faq-right ul li img {
+    width: 100px;
+}
+.flex-row {
+    display: block;
+}
+.faq-left img {
+    width: 40%;
+    margin: 0 auto 75px;
+}
+.faq-right {
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-col {
+    margin-bottom: 25px;
+}
+img.footer-logo {
+    width: 57px;
+    float: initial;
+    margin: 0 auto;
+    display: block;
+}
+footer {margin-top: 25px;}
+section.team {
+    padding-bottom: 25px;
+}
+.traits-box {
+    margin: 110px 0 40px;
+}
+.traits-gallery {
+    margin-top: 60px;
+}
+.map-chart span img {
+    display: none;
+}
+.mapbox-1, .mapbox-2, .mapbox-3, .mapbox-4 {
+    position: relative;
+    width: 100%;
+    background: #2b2b2b;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin-bottom: 40px;
+    border-radius: 125px;
+    padding: 18px 0;
+    height: auto;
+}
+.mapbox-inner h4 {
+    font-size: 24px;
+}
+.mapbox-1:after, .mapbox-2:after, .mapbox-3:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 2px;
+    height: 24px;
+    bottom: -34px;
+}
+.faq-right ul li {
+    border-radius: 25px;
+    padding: 53px 38px 20px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.faq-right ul li img {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.faq-right ul li span {
+    font-size: 20px;
+}
+.footer-col h3 {
+    font-size: 20px;
+}
+div#myNavbar {
+    position: absolute;
+    z-index: 999;
+    background: #240b32;
+}
+ .price-range-slider {
+    margin-top: 30px;
+    width: 75%;
+    margin-left: 53px;
+}
+section#team .clearfix {
+    display: none;
+}
+
+}
+ 
+@media (max-width:479px) {
+  .modalimg {
+    margin-left: 0;
+}
+.modal-elements {right: -50px;}
+.modal-elements.element-2 {right: -115px;}
+.modal-elements.element-3 {right: -115px;}
+.modal-elements.element-4 {right: -22px;}
+.faq-right {width: 100%;}
+.banner-left h1 {
+  font-size: 25px;
+ line-height: normal;
+}
+div#countdown ul li {
+        margin-right: 10px;
+    width: 58px;
+    height: 80px;
+}
+
+
+ }
